@@ -1,0 +1,10 @@
+
+server:
+  port: 8080
+
+#Hikari
+hikari.driverclassname : org.postgresql.Driver
+hikari.jdbc.url : jdbc:postgresql://localhost/db_sample
+hikari.username : sample
+hikari.password : sample
+hikari.pool.size : 1
